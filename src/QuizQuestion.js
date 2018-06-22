@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 class QuizQuestion extends Component {
   render() {
@@ -7,7 +6,7 @@ class QuizQuestion extends Component {
       <div>
         <main>
           <section>
-            <p>{this.props.instruction_text}</p>
+            <p>{this.props.quiz_question.instruction_text}</p>
           </section>
           <section>
             <ul>
